@@ -7,7 +7,7 @@ export const db = new sqlite3.Database(DBSOURCE, sqlite3.OPEN_READONLY, (err) =>
     if (err) {
       console.error(err.message)
       throw err
-    }else{
+    } else {
         console.log('Connected to database.')
     }
 });
